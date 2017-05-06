@@ -1,15 +1,14 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-node_modules
-flow-typed
+/node_modules
+/flow-typed
 
 # testing
-coverage
+/coverage
 
 # production
-#build
-# Keeping the build until we figure out a solution to have Heroku auto-build it. Not easy as our starting point is Go web.
+/build
 
 # misc
 .DS_Store
